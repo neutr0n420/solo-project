@@ -1,0 +1,95 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+#hero{
+    background-image: url("images/maharashtra.jpeg");
+    background-size: cover;
+    padding: 122px 260px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.hero-text{
+    background-color: #1de2c5;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.hero-text:hover{
+    background-color: #1d9de2;
+}
+
+#activities-section{
+    margin-top: 0px;
+    background-color: #dad7cd;
+    padding: 58px 0;
+}
+
+.activity-section{
+    display: flex;
+    justify-content:space-evenly;
+}
+#activity-heading{
+    margin-bottom: 20px;
+}
+.image-heading{
+    width: 200px;
+    justify-content: center;
+}
+.activity-paragraph{
+    width: 200px;
+    justify-content:center;
+    
+}
+.activity-images{
+
+    width: 200px;
+    border-radius: 10px;
+}
+
+.guide-section{
+    width: 500px;
+    display: flex;
+   margin: 50px auto;
+   border-radius: 10px;
+   padding-top: 23px;
+   padding-bottom: 23px;
+   padding-left: 13px;
+   padding-right: 11px;
+   background-color: #A8DADC;
+   color: #1D3557;
+   
+}
+.guide-section:hover{
+    border-bottom: 8px solid #1D3557;
+}
+#guide-photo{
+    width: 250px;
+    height: 250px;
+    padding-right: 30px;
+    border-radius: 50%;
+}
+
+#guide-heading{
+    width: 207px;
+}
+
